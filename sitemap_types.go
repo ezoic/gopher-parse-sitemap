@@ -11,7 +11,7 @@ type sitemapEntry struct {
 }
 
 func newSitemapEntry() *sitemapEntry {
-	return &sitemapEntry{ChangeFrequency: Always, Priority: 0.5}
+	return &sitemapEntry{}
 }
 
 func (e *sitemapEntry) GetLocation() string {
